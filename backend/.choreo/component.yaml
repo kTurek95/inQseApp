@@ -1,6 +1,6 @@
 schemaVersion: "1.1"
 endpoints:
-    - name: "REST API"
+    - name: "restapi"
       service:
         basePath: /
         port: 8000
