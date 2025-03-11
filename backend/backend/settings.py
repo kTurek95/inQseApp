@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-zp#gw5^q81%^cu8c6$1qhw-p@5htd8*cnv#igg%rypa2zl2yrs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "backend-3726511205.dp-development-inqseapp-60924-2632207766"] # pozwala na połącznie się z apką tylko z localhosta/127.0.0.1. Pózniej trzeba to zmienić
+ALLOWED_HOSTS = ["*"] # pozwala na połącznie się z apką tylko z localhosta/127.0.0.1. Pózniej trzeba to zmienić
 # żeby był dostęp już z danej domeny. 
 
 REST_FRAMEWORK = {
