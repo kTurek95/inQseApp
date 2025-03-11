@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-zp#gw5^q81%^cu8c6$1qhw-p@5htd8*cnv#igg%rypa2zl2yrs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"] # pozwala na połącznie się z apką tylko z localhosta/127.0.0.1. Pózniej trzeba to zmienić
 # żeby był dostęp już z danej domeny. 

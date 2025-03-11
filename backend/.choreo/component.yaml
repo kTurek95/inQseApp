@@ -1,11 +1,9 @@
 schemaVersion: "1.1"
 endpoints:
-    - name: rest-api-be2-0a1
-      displayName: rest-api-be2
+    - name: "REST API"
       service:
-        basePath: /api
+        basePath: /
         port: 8000
       type: REST
       networkVisibilities:
-        - Project
         - Public
